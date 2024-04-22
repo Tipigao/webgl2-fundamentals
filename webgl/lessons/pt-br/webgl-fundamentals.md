@@ -8,14 +8,10 @@ Primeiramente, esses artigos são sobre a WebGL2. Se você está interessado na 
 com a WebGL1](webgl1-to-webgl2.html). Dito isto, uma vez que você habilita a
 WebGL2, você também pode usá-la como ela deveria ser usada. Esses tutoriais seguem esse raciocínio.
 
-[test](#日本語のテクスト)
-
 Normalmente, a WebGL é vista como uma API 3D. As pessoas pensam: "eu irei usar a WebGL e como uma mágica,
 eu vou obter efeitos 3D super legais". Na realidade não é nada disso, a WebGL é apenas um mecanismo de rasterização. Ela desenha
 pontos, linhas e triângulos com base no código que você fornece. Colocar a WebGL para fazer qualquer outra coisa depende de você
 fornecer o código de modo que o uso dos pontos, linhas e triângulos sejam capazes de realizar sua tarefa.
-
-## 日本語のテクスト
 
 A WebGL é executada diretamente na GPU do seu computador. Como tal, você precisa indicar o código a ser executado na GPU.
 Você pode indicar o código na forma de pares de funções. Essas 2 funções são chamadas de vexter shader
